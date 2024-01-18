@@ -31,4 +31,4 @@ davies_bouldin = davies_bouldin_score(X, y_kmeans)
 print(f"Davies-Bouldin Index: {davies_bouldin}")
 
 import joblib
-joblib.dump(kmeans, 'model/model.joblib')
+joblib.dump(kmeans, 'model.joblib')
