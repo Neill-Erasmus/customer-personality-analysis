@@ -52,9 +52,9 @@ Through the process of Customer Personality Analysis, businesses can fine-tune t
 
 The Elbow Method is a technique to determine the optimal number of clusters (K) in a K-Means clustering algorithm. It involves running K-Means on the dataset for a range of K values and plotting the within-cluster sum of squares (WCSS) against the number of clusters. The "elbow" in the plot represents the point where adding more clusters doesn't significantly reduce WCSS. The optimal K is typically located at this elbow point, as it strikes a balance between minimizing intra-cluster variance and avoiding overfitting. The method helps in finding a suitable number of clusters for meaningful data segmentation without unnecessary complexity.
 
-<div style="text-align:center;">
+<p align="center">
     <img src="https://github.com/Neill-Erasmus/customer-personality-analysis/assets/141222943/08e18633-ac51-4354-893e-39b4cc3474d5" alt="output">
-</div>
+</p>
 
 Upon analyzing the Elbow Method graph, it reveals that the elbow point, a critical indicator for optimal cluster selection, is identified at 4 clusters. Although the clusters show a trend of converging towards 10, we opt for simplicity and interpretability, choosing 4 clusters as an optimal balance for effective segmentation in our model.
 
